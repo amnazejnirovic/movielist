@@ -1,0 +1,26 @@
+/* Add a background color and some padding to the body */
+body {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/* Style the heading */
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+/* Style the movie list container */
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Style the individual movie containers */
+.movie {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #ccc;
+  text-align: center;
+}
