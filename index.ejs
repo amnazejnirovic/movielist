@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Movie Watchlist</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>My Movie Watchlist</h1>
+    <div class="movie-list">
+      <% for (let i = 0; i < movies.length; i++) { %>
+        <div class="movie">
+          <h2><%= movies[i].title %></h2>
+          <div class="rating">Rating: <%= movies[i].rating %>/10</div>
+        </div>
+      <% } %>
+    </div>
+  </body>
+</html>
